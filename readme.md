@@ -6,33 +6,33 @@
 ### index.html
 - The `<nav>` section of the webpage was within the `<head>` - I have moved this into the body section
 - The `<nav>` section didn't use correctly formatted links or any container - I have used .navbar-expand and set a container
-- The 'about' link was linking to abou.html - I have corrected this
-- Although ... technically not wrong, the `<style>` section was placed at the bottom of the page before the closing `<body>` tag ... I hve chosen to add this to a stabdalone css file
+- The 'about' link was linking to `abou.html` - I have corrected this
+- Although ... technically not wrong, the `<style>` section was placed at the bottom of the page before the closing `<body>` tag ... I have chosen to add this to a standalone css file
 - Again not really an issue - but I have placed the javascript loading to the end of the page, so the HTML content loads first
-- The carousel was referencing three images, the third image (`image4.jpg`) doesn't exist - I have set the third image to load image3.jpg
+- The carousel was referencing three images, the third image (`image4.jpg`) doesn't exist - I have set the third image to load `image3.jpg`
 - The carousel wrapper `<div>` referenced the same class twice - I have removed the duplicate class referenced
 - Slide 1 & 3 black clashes, so made this lighter text
-- Carousel was inconsistent with image heights - I have added some custom css to custom.css to make all the images equal in height
+- Carousel was inconsistent with image heights - I have added some custom css to `custom.css` to make all the images equal in height
 - I have created a container for the Modal button
 - I have set the footer text to be properly vertically centered within the footer itself
 
 ### about.html
-- `<nav>` section was in the head again, so copied the nav I created for index.html over and set about.html as active
+- `<nav>` section was in the head again, so copied the nav I created for `index.html` over and set `about.html` as active
 - removed the empty `<script>` and `<style>` tags
-- Placed <script> tags at the end of the <body>
+- Placed `<script>` tags at the end of the `<body>`
 - Created a container with top padding so the text isn't obscured by the navbar
 - I have created `<p>` tags around each line break of text, to break up the sections - I could have used `<br>` - but this would only add a linebreak
 - I have added the `<footer>` to the `about.html` page
 
 ### custom.css (originally inline style for `index.html`)
-- '.carousel-caption' class had english spelling of 'colour' - I changed this to 'color' (which is correct for css)
+- `.carousel-caption` class had english spelling of `colour` - I changed this to `color` (which is correct for css)
 - .title had `fontsize` - I have changed this to `font-size`
 - I have commented out the modal section - it appears to be attempting to achieve what bootstrap already achieves off the bat
-- To make the modal more like a lightbox, I have added a few custom classes to custom.css
+- To make the modal more like a lightbox, I have added a few custom classes to `custom.css`
 
 ### After thoughts
 - I have setup the sections `<nav>` / `<main>` / `<footer>`
-- I have moved 'msh.jpg' into the 'img' directory
+- I have moved `msh.jpg` into the `img` directory
 
 ## Recommendations for `about.html`
 Firstly the use of `<nav>` before the `<body>` tag is incorrect, while the navbar is a page header, the `<head>` tag is mainly used for loading stylesheets, setting meta tags, setting the page title (as shown in the tab on the browser) and other scripts to load first on the page
