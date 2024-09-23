@@ -31,7 +31,7 @@
 - To make the modal more like a lightbox, I have added a few custom classes to custom.css
 
 ### After thoughts
-- I have setup the sections '<nav>' / '<main>' / '<footer>'
+- I have setup the sections `<nav>` / `<main>` / `<footer>`
 - I have moved 'msh.jpg' into the 'img' directory
 
 ## Recommendations for `about.html`
