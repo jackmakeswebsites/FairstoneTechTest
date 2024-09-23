@@ -1,0 +1,89 @@
+/* Custom Carousel CSS */
+body {
+    height: 100%;
+}
+
+.carousel, .carousel-inner, .carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100vh;
+}
+
+.background-color {
+    background-color: burlywood;
+  }
+  
+  .title {
+    font-size: 60px;
+    font-weight: bolder;
+    color: brown;
+  }
+  
+  .alignment {
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer {
+    height: 40px;
+    background-color: burlywood;
+    color: brown;
+  }
+  
+  .carousel-caption {
+    color: black;
+  }
+
+  /** Custom Css Modal Classes */
+  .modal-body {
+    padding: 0;
+  }
+  .modal-body img {
+    width: 100%;
+    height: auto;
+  }
+  .btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  /* Modal styles */
+  /* .modal { */
+    /* display: none; */
+    /* position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .modal-content {
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } */
+  
