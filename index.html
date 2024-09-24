@@ -85,7 +85,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12 my-5">
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+          <button type="button" class="btn btn-primary" id="myModalShow">
             Click here to see a mushroom
           </button>
         </div>
@@ -105,7 +105,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-body">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" id="myModalClose" aria-label="Close"></button>
             <img src="img/msh.jpg" alt="Image" style="width:100%">
           </div>
         </div>
@@ -137,6 +137,26 @@
   integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
   crossorigin="anonymous"></script>
 
+  <!-- Bootstrap Modal - Manual call JS -->
+  <script>
+    let prefs = {
+      backdrop: true,
+      keyboard: true
+    }
+
+    let myModal = new bootstrap.Modal(document.getElementById('myModal'), prefs);
+    let myModalShow = document.getElementById('myModalShow');
+    let myModalClose = document.getElementById('myModalClose');
+
+    myModalShow.addEventListener('click', function() {
+      myModal.show();
+    });
+
+    myModalClose.addEventListener('click', function() {
+      myModal.hide();
+    });
+    
+  </script>
   </body>
 
 </html>
