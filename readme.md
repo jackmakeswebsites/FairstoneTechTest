@@ -33,7 +33,7 @@
 ### After thoughts
 - I have setup the sections `<nav>` / `<main>` / `<footer>`
 - I have moved `msh.jpg` into the `img` directory
-- I have manually called the modal to show Javascript usage
+- I have manually called the modal to show Javascript usage - although it performs the same actions as as using `data-bs-toggle` & `data-bs-target` - I thought it shows I am able to manage bootstrap elements manually
 
 ## Recommendations for `about.html`
 Firstly the use of `<nav>` before the `<body>` tag is incorrect, while the navbar is a page header, the `<head>` tag is mainly used for loading stylesheets, setting meta tags, setting the page title (as shown in the tab on the browser) and other scripts to load first on the page
